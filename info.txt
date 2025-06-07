@@ -1,0 +1,40 @@
+# 🧠 Neural Network from Scratch – Cats vs Dogs Classification
+
+This project builds a simple feedforward neural network **entirely from scratch** using **NumPy**, without relying on machine learning libraries like TensorFlow or PyTorch. It classifies images of cats and dogs using a two-layer neural architecture with manual backpropagation and parameter updates.
+
+## 🧪 Dataset
+- Source: [Kaggle Dogs vs. Cats Dataset](https://www.kaggle.com/datasets)
+- Preprocessed to 64x64 pixel RGB format
+- Training and testing images organized in `Cat/` and `Dog/` folders
+
+## 🛠️ What’s Inside
+- Custom neural network built using NumPy (no ML frameworks!)
+- Hidden layer with configurable size (`n_h`) and Tanh activation
+- Sigmoid output layer for binary classification
+- Manual implementation of forward and backward propagation
+- Cross-entropy cost function and gradient descent optimization
+- Predict function for real-time image testing
+- Cost curve visualization
+
+## 🎯 Highlights
+- Fully vectorized neural network implementation
+- Adjustable network depth via hidden layer size
+- Learnable example of how deep learning works under the hood
+- Predicts from both dataset and user-uploaded images
+- Clean, annotated code suitable for GitHub portfolio
+
+## 🧠 Learnings
+This project deepened my understanding of:
+- Building neural networks step-by-step
+- Manual weight initialization and parameter updates
+- Backpropagation through nonlinear activations
+- Training models without ML libraries
+- Data preprocessing for computer vision tasks
+
+## 📁 File Structure
+├── Neural_Network_From_Scratch.ipynb # Complete Jupyter Notebook  
+├── requirements.txt                  # Python package dependencies  
+├── README.md                         # GitHub project overview  
+├── info.txt                          # Description for project pages  
+└── dataset/                          # Training/test image folders (not committed to Git)
+
